@@ -1,0 +1,37 @@
+<!DOCTYPE html><html lang="en" class="no-js">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0" name="viewport" />
+        <title>{module_pagename}</title>
+        <link href="/favicon.png" rel="shortcut icon" />
+        <link href="/home_badge_64.png" rel="apple-touch-icon" />
+        <link href="/home_badge_64.png" rel="apple-touch-icon-precomposed" />
+        <link href="/_assets/css/normalize.css" rel="stylesheet" />
+        <link href="/_assets/css/foundation-5.2.3.min.css" rel="stylesheet" />
+        <link href="/_assets/css/styles.css" rel="stylesheet" />
+        <link href="//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700" rel="stylesheet" type="text/css" />
+        <link href="//fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet" type="text/css" />
+        <script src="/_assets/js/vendor/modernizr.js"></script>
+        <!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+        <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+        <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+        <![endif]-->
+        <script type="text/javascript">
+    // Will retun 1 or 0 based on if user is logged in(1) or not logged in(0)
+    var _isLoggedIn = !!parseInt("{module_isloggedin}");
+    </script>
+    </head>
+    <body>
+        {module_contentholder, name="_Template - Header"}
+        <!-- //header.row -->
+        {tag_pagecontent}<!--end pagecontent-->
+        {module_contentholder, name="CTA"}<!--end CTA-->
+        {module_contentholder, name="_Footer"}
+        <!-- //footer privacy -->
+        {module_contentholder, name="_Template - Scripts"}
+        <!-- //template scripts -->
+    </body>
+</html>

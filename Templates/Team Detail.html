@@ -1,0 +1,55 @@
+<!DOCTYPE html><html lang="en" class="no-js">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+        <title>{module_pagename}</title>
+        <link rel="shortcut icon" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/home_badge_64.png" />
+        <link rel="apple-touch-icon-precomposed" href="/home_badge_64.png" />
+        <link rel="stylesheet" href="/_assets/css/normalize.css" />
+        <link rel="stylesheet" href="/_assets/css/foundation-5.2.3.min.css" />
+        <link rel="stylesheet" href="/_assets/css/styles.css" />
+        <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700" />
+        <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:600" />
+        <script src="/_assets/js/vendor/modernizr.js"></script>
+        <!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+        <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+        <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+        <![endif]-->
+        <script type="text/javascript">
+    // Will retun 1 or 0 based on if user is logged in(1) or not logged in(0)
+    var _isLoggedIn = !!parseInt("{module_isloggedin}");
+    </script>
+    </head>
+    <body>
+        {module_contentholder, name="_Template - Header"}
+        <!-- //header.row -->
+        <section class="breadcrumb-container">
+        <div class="row">
+        <div class="medium-12 columns">
+        <ul class="breadcrumbs">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li class="active"><a href="#">Meet the team</a></li>
+        </ul>
+        </div>
+        </div>
+        </section>
+        <!--end section breadcrumbs-->
+        <section class="main">
+        <div class="row">
+        <div class="medium-12 columns">
+        {tag_pagecontent}</div>
+        </div>
+        </section>
+        {module_contentholder, name="CTA"}
+        <!-- //cta -->
+        {module_contentholder, name="_Footer"}
+        <!-- //footer privacy -->
+        {module_contentholder, name="_Template - Scripts"}
+        <!-- //template scripts -->
+    </body>
+</html>
