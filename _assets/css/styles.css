@@ -106,7 +106,7 @@ input[type="submit"] {
     font-weight: 500;
 }
 .side-nav li a:hover:not(.button), .side-nav li a:focus:not(.button) {
-	color: #e3b16d;
+	color: #1a629b;
 	background: #F6F6F0;
 }
 /*header*/
@@ -902,7 +902,7 @@ table.webform, table.reporting {
 }
 .faq-question a {
     background: none repeat scroll 0 0 #aad1f2;
-    color: #ffffff;
+    color: #000000;
     display: block;
     font-size: 12px;
     font-weight: 700;
@@ -922,6 +922,7 @@ table.webform, table.reporting {
 .faq-question a:hover {
     background: none repeat scroll 0 0 #252f38;
     transition-duration: 0.2s;
+	color: #FFFFFF;
 }
 /*media queries*/
 /*************media queries**************/
