@@ -209,6 +209,7 @@ td.cartSummaryItem {
 	color: #FFFFFF;
 	font-size: 13px;
 	padding: 3px 0;
+	visibility: hidden;
 }
 /*search*/
 .search-container {
