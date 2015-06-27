@@ -31,16 +31,16 @@ h5 {
 	font-weight: 500;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a {
-	color: #d5a35e;
+	color: #1a629b;
 }
 a, a:visited {
-	color: #d5a35e;
+	color: #1a629b;
 }
 a:hover, a:focus {
-	color: #e3b16d;
+	color: #1a629b;
 }
 .dash {
-	background: none repeat scroll 0 0 #D5A35E;
+	background: none repeat scroll 0 0 #1a629b;
 	display: block;
 	height: 2px;
 	margin: 30px auto 45px;
@@ -53,27 +53,27 @@ a:hover, a:focus {
 	font-weight: 500;
 	background: none;
 	letter-spacing: 2px;
-	border: 2px solid #D5A35E;
-	color: #D5A35E;
+	border: 2px solid #1a629b;
+	color: #1a629b;
 }
 .button.secondary, button.secondary {
 	background: none;
 }
 button:hover, .button:hover, .button.secondary:hover, button.secondary:hover, button:focus, .button:focus, input[type="submit"]:hover, input[type="submit"]:focus {
 	background: rgba(255,255,255,0.25);
-	color: #e3b16d;
-	border-color: #e3b16d;
+	color: #000000;
+	border-color: #000000;
 }
 input[type="submit"] {
     padding: 15px 20px;
 }
 /*pricing tables*/
 .pricing-table {
-	border: 2px solid #D5A35E;
+	border: 2px solid #1a629b;
 	margin-bottom: 30px;
 }
 .pricing-table .title {
-	background: #D5A35E;
+	background: #1a629b;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-family: 'Roboto', sans-serif;
@@ -102,7 +102,7 @@ input[type="submit"] {
 	font-family: 'Roboto', sans-serif;
 }
 .side-nav li.side-nav-title a:not(.button) {
-	color: #d5a35e;
+	color: #aad1f2;
     font-weight: 500;
 }
 .side-nav li a:hover:not(.button), .side-nav li a:focus:not(.button) {
@@ -124,7 +124,7 @@ header {
 }
 
 .top-bar-section li.active:not(.has-form) a:not(.button) {
-	color: #D5A35E;
+	color: #1a629b;
 	background: none;
 }
 .top-bar-section li.active:not(.has-form) a:hover:not(.button) {
@@ -143,13 +143,13 @@ header {
 	background: none repeat scroll 0 0 #2c2c2c;
 }
 .top-bar-section .dropdown li.active:not(.has-form) a:not(.button), .top-bar-section .dropdown li.active:not(.has-form) .dropdown li.active:not(.has-form) a:not(.button) {
-	background: none repeat scroll 0 0 #D5A35E;
+	background: none repeat scroll 0 0 #1a629b;
 }
 
 
 
 .top-bar .name {
-	border: 3px solid #D5A35E;
+	border: 3px solid #1a629b;
 	font-family: 'Open Sans';
 	font-size: 30px;
 	font-weight: 600;
@@ -195,7 +195,7 @@ header {
 	font-size: 13px;
 }
 a.cartSummaryLink {
-	color: #D5A35E;
+	color: #1a629b;
 }
 .utility-nav .uty0, .utility-nav .uty1 {
 	display: none;
@@ -244,7 +244,7 @@ td.cartSummaryItem {
 }
 .orbit-container .orbit-slides-container > li .orbit-caption h1 {
 	font-size: 90px;
-	border-bottom: 3px solid #D5A35E;
+	border-bottom: 3px solid #1a629b;
 	display: inline-block;
 	margin-bottom: 10px;
 	padding-bottom: 10px;
@@ -291,7 +291,7 @@ section.services {
 	overflow:hidden;	
 }
 .service-details {
-	border-bottom: 2px solid #d5a35e;
+	border-bottom: 2px solid #aad1f2;
 	margin-bottom: 30px;
 	padding: 20px 0 30px;
 }
@@ -306,7 +306,7 @@ section.services {
 /*about*/
 section.about {
 	padding: 40px 0 0;
-	background: #D5A35E;
+	background: #1a629b;
 	text-align: center;
 	margin-bottom: 70px;
 }
@@ -324,7 +324,7 @@ section.contact h3, section.contact p {
 	color: #333;
 }
 section.contact .dash {
-	background: #D5A35E;
+	background: #1a629b;
 	
 }
 section.about .dash {
@@ -395,7 +395,7 @@ section.about .button.secondary {
 }
 .team-details {
 	padding: 20px 0;
-	border-bottom: 2px solid #d5a35e;
+	border-bottom: 2px solid #aad1f2;
 	margin-bottom: 30px;
 	padding-bottom: 30px;
 }
@@ -466,8 +466,8 @@ section.work-detail {
 	font-weight: 500;
 }
 #filters ul li button.is-checked, #filters ul li button:hover, #filters ul li button:focus {
-	border-color: #D5A35E;
-	color: #D5A35E;
+	border-color: #1a629b;
+	color: #1a629b;
 }
 #filters ul li:last-child {
 	margin-right: 0;
@@ -532,7 +532,7 @@ section.thumbs a.active > img {
 /*cta*/
 section.cta {
 	padding: 60px 0 0;
-	background: #D5A35E;
+	background: #1a629b;
 	text-align: center;
 }
 section.cta .button.secondary {
@@ -547,7 +547,7 @@ footer {
 	padding: 50px 0 60px;
 }
 footer h4 {
-	color: #D5A35E;
+	color: #1a629b;
 	margin-bottom: 3rem;
 }
 footer p, footer div.copy {
@@ -594,7 +594,7 @@ section.breadcrumb-container {
 	padding: 0;
 }
 .breadcrumbs > * a {
-	color: #D5A35E;
+	color: #1a629b;
 }
 .breadcrumbs > li.active a {
 	color: #2c2c2c;
@@ -604,7 +604,7 @@ section.breadcrumb-container {
 }
 /*page-title*/
 section.page-title {
-	background: none repeat scroll 0 0 #D5A35E;
+	background: none repeat scroll 0 0 #1a629b;
 	padding: 20px 0;
 }
 section.page-title h1 {
@@ -900,7 +900,7 @@ table.webform, table.reporting {
     position: relative;
 }
 .faq-question a {
-    background: none repeat scroll 0 0 #d5a35e;
+    background: none repeat scroll 0 0 #aad1f2;
     color: #ffffff;
     display: block;
     font-size: 12px;
