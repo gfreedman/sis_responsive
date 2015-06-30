@@ -153,7 +153,6 @@ header {
 .top-bar .name {
 	border: 3px solid #1a629b;
 	font-family: 'Open Sans';
-	color:FFFFFF !important;
 	font-size: 15px;
 	font-weight: 600;
 	letter-spacing: 2px;
@@ -843,4 +842,205 @@ input.cat_textbox.sm {
     margin: 0 0 3px;
 }
 #cart-footer hr {
-    margin:
+    margin: 3px 0;
+}
+#opt-total-container {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    margin: 0;
+    overflow: hidden;
+    padding: 20px;
+}
+.opt-total-data .productitemcell {
+    border: medium none;
+    height: auto;
+    padding: 0;
+}
+.opt-total-data {
+    display: block;
+    margin-bottom: 5px;
+    text-align: right;
+}
+.opt-total-data h3 {
+    margin: 0;
+}
+select.shippingDropDown {
+    width: 95%;
+	height:auto;
+}
+.productitemcell {
+    height: 135px;
+}
+input#DiscountCode, input#GiftVoucher {
+    display: inline;
+    max-width: 280px;
+    width: 165px;
+	height:50px;
+}
+a#catshopbuy:link, a#catshopbuy:visited {
+    display: block;
+    font-size: 15px;
+    padding: 1em;
+    text-align: center;
+	text-shadow:none;
+	font-size:21px;
+
+}
+
+#catCartDetails fieldset, #catCartDetails table {
+    border: medium none;
+    padding: 1.25em 0;
+}
+table tr.even, table tr.alt, table tr:nth-of-type(2n) {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+table.webform, table.reporting {
+    border: medium none;
+}
+.reveal-modal {
+    text-align: center;
+}
+.faq-question {
+    position: relative;
+}
+.faq-question a {
+    background: none repeat scroll 0 0 #aad1f2;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    padding: 14px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.faq-details {
+    border: 1px solid #cccccc;
+    margin: -4px 0 10px;
+    padding: 15px;
+}
+.faq-question:first-child > div.faq-details {
+    display: block;
+}
+.faq-question a:hover {
+    background: none repeat scroll 0 0 #252f38;
+    transition-duration: 0.2s;
+	color: #FFFFFF;
+}
+/*media queries*/
+/*************media queries**************/
+@media only screen and (min-width: 0) and (max-width: 640px) {
+.top-bar .name {
+	display: inline-block;
+	font-size: 18px;
+}
+.dash {
+	margin: 20px auto 28px;
+	width: 35px;
+}
+.orbit-container .orbit-prev {
+	left: 5%;
+}
+.orbit-container .orbit-next {
+	right: 5%;
+}
+.orbit-container .orbit-slides-container > li .orbit-caption {
+	display: none;
+}
+section.about {
+	margin-bottom: 0;
+}
+.team-pictures {
+	margin: 0;
+}
+.team-item, .team-item img{
+	width:100%;
+}
+.team-pictures img.img-overhang {
+	margin-top: -78px;
+}
+section.about blockquote {
+	font-size: 19px;
+}
+#filters ul li {
+	width: 100%;
+	margin-bottom: 0 !important;
+}
+#filters ul li button {
+	width: 100%;
+}
+footer h4 {
+	margin-bottom: 1rem;
+}
+footer div.copy, footer .vcard {
+	margin-bottom: 30px;
+}
+}
+
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+.top-bar .name {
+	font-size: 18px;
+}
+.dash {
+	margin: 20px auto 28px;
+	width: 35px;
+}
+.orbit-container .orbit-prev {
+	left: 5%;
+}
+.orbit-container .orbit-next {
+	right: 5%;
+}
+.orbit-container .orbit-slides-container > li .orbit-caption {
+	top: 15%;
+}
+.orbit-container .orbit-slides-container > li .orbit-caption h1 {
+	font-size: 48px;
+}
+
+section.about {
+	margin-bottom: 0;
+}
+section.about blockquote {
+
+    font-size: 24px;
+}
+.team-pictures {
+	margin:50px 0 30px;
+}
+.team-item {
+	width:45%;	
+}
+.team-pictures img.img-overhang {
+	margin-top: -125px;
+}
+#filters ul li {
+	margin-bottom: 15px!important;
+}
+.service-detail-item {
+	height:430px;	
+}
+footer h4 {
+	margin-bottom: 1rem;
+}
+}
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+	.dash {
+	margin: 20px auto 28px;
+	width: 35px;
+}
+.orbit-container .orbit-prev {
+	left: 5%;
+}
+.orbit-container .orbit-next {
+	right: 5%;
+}
+.orbit-container .orbit-slides-container > li .orbit-caption h1 {
+	font-size: 64px;
+}
+.team-pictures {
+	margin: 0 0 30px;
+}
+.team-item {
+	width:45%;	
+}
+}
