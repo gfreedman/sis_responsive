@@ -151,7 +151,10 @@ header {
 }
 
 .top-bar .name {
-	border: 3px solid #1a629b;
+	/*border: 3px solid #1a629b;*/
+	position:relative;
+	top:-11px;
+	margin-top:1px;
 	font-family: 'Open Sans';
 	font-size: 15px;
 	font-weight: 600;
